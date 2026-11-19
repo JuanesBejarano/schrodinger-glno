@@ -1,0 +1,38 @@
+{
+ "gpu": "NVIDIA L4",
+ "dataset": "shapes",
+ "variant": "periodic",
+ "store_gib": 7.948720082640648,
+ "store_seconds": 313.0696330579999,
+ "cu_per_hour": null,
+ "projection": {
+  "dataset": "shapes",
+  "hours": {
+   "50": 1.5166134211458706,
+   "300": 9.099680526875224
+  }
+ },
+ "device": "cuda",
+ "batch_size": 4,
+ "families": {
+  "sphere": {
+   "train_ms_per_sample": 102.55216845000064,
+   "train_packets": 400,
+   "val_packets": 50,
+   "eval_ms_per_sample": 49.215193800000634,
+   "reserved_gib": 13.990234375
+  },
+  "torus": {
+   "train_ms_per_sample": 154.0887004500064,
+   "train_packets": 400,
+   "val_packets": 50,
+   "eval_ms_per_sample": 81.58118144999662,
+   "reserved_gib": 16.7265625
+  }
+ },
+ "epoch_seconds": 109.19616632250268,
+ "hours": {
+  "50": 1.5166134211458706,
+  "300": 9.099680526875224
+ }
+}

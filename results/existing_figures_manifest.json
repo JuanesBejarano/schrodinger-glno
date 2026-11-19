@@ -1,0 +1,130 @@
+{
+  "note": "Existing project outputs copied without regeneration or image editing. Source paths are relative to the original quantum-tunneling project.",
+  "files": [
+    {
+      "source": "artifacts/sphere_samples.png",
+      "destination": "figures/cn/sphere_samples.png",
+      "sha256": "fba777d8603cd1261395e1f91ad27290caed23cb505c28aff6a6df0a253ca13a"
+    },
+    {
+      "source": "artifacts/torus_samples.png",
+      "destination": "figures/cn/torus_samples.png",
+      "sha256": "c5b80a090451a8c2e4d0255fa3cfec80bc38e9f39a6ee68257d933d424471700"
+    },
+    {
+      "source": "artifacts/shapes_small_samples.png",
+      "destination": "figures/cn/shapes_small_samples.png",
+      "sha256": "b5f42ac731dadfab4ce4719fcf35163f450291153b9670438451de2d9ae5edd5"
+    },
+    {
+      "source": "artifacts/shapes_small_ood.png",
+      "destination": "figures/cn/shapes_small_ood.png",
+      "sha256": "91ecafc7ae3071ea487c298087e4e2b210dabb931efceea0bdea2ad3469bf2f2"
+    },
+    {
+      "source": "artifacts/shapes_samples.png",
+      "destination": "figures/cn/shapes_samples.png",
+      "sha256": "b5f42ac731dadfab4ce4719fcf35163f450291153b9670438451de2d9ae5edd5"
+    },
+    {
+      "source": "artifacts/shapes_test_ood.png",
+      "destination": "figures/cn/shapes_test_ood.png",
+      "sha256": "fc357904d25e0d081c9180ff578adbac3145b64c9ba7d07f350c2616bfeec43f"
+    },
+    {
+      "source": "artifacts/stage3_shapes_examples.png",
+      "destination": "figures/geometry/stage3_shapes_examples.png",
+      "sha256": "3f454d5e7506ad2bbad03ee37133453886b58d01070f7296a35df09a927a9acc"
+    },
+    {
+      "source": "artifacts/cn_check.png",
+      "destination": "figures/diagnostics/cn_check.png",
+      "sha256": "bcfbde7870a790a0630dc381ce93d4e58b22eb6b7d9f3d9fc8fc869bf610bb5a"
+    },
+    {
+      "source": "artifacts/transitorio_vs_estacionario.png",
+      "destination": "figures/diagnostics/transitorio_vs_estacionario.png",
+      "sha256": "baf45ce12d2c01f3a926eef5dd04361d314dd6e59e2db8bbf3ff64c33c29683c"
+    },
+    {
+      "source": "artifacts/transitorio_vs_estacionario_norma.png",
+      "destination": "figures/diagnostics/transitorio_vs_estacionario_norma.png",
+      "sha256": "2a3fc3915e0d9e4cae8e31e2f3c771c4b4bc69a05b3c17ccd97a7f07419567ed"
+    },
+    {
+      "source": "artifacts/glno_gate/gate.png",
+      "destination": "figures/diagnostics/glno_gate/gate.png",
+      "sha256": "638885bfe7cecf2ed5d45a6db15dc0e6f4be1b1a710cdd49fa112de034ed60d5"
+    },
+    {
+      "source": "artifacts/glno_gate/gate_1500.png",
+      "destination": "figures/diagnostics/glno_gate/gate_1500.png",
+      "sha256": "187a449edc739d4ef9f732f59d231bb7678fd514c6affabc5cfeb2bff1f60cb4"
+    },
+    {
+      "source": "artifacts/glno_shapes_eval/compare_184_sphere_test4.png",
+      "destination": "figures/comparisons/shapes/test/compare_184_sphere_test4.png",
+      "sha256": "118b0cf7002a9e441bebe784056c31f769bfe8871919e8bfa3ca26d922a67081"
+    },
+    {
+      "source": "artifacts/glno_shapes_eval/compare_191_torus_test1.png",
+      "destination": "figures/comparisons/shapes/test/compare_191_torus_test1.png",
+      "sha256": "bfa9a649aabf636762c0ab5a882a802ee15748a4223b5c700163dc57737d54bc"
+    },
+    {
+      "source": "artifacts/glno_shapes_eval/compare_193_torus_test4.png",
+      "destination": "figures/comparisons/shapes/test/compare_193_torus_test4.png",
+      "sha256": "b07b012227eaea61f854869f6fad1ccafb7b07804b9d8c8aa188942b1c2c8125"
+    },
+    {
+      "source": "artifacts/glno_shapes_eval/compare_183_torus_test3.png",
+      "destination": "figures/comparisons/shapes/test/compare_183_torus_test3.png",
+      "sha256": "ef1ff59f9be4e3baa435d79b56a6387850466a6828aec7dec1a72482c5f92317"
+    },
+    {
+      "source": "artifacts/glno_shapes_eval/compare_181_torus_ood3.png",
+      "destination": "figures/comparisons/shapes/ood/compare_181_torus_ood3.png",
+      "sha256": "50421711ff1b84827be0e80c540fe1c3dee430f0a912c57feab403722da13fa0"
+    },
+    {
+      "source": "artifacts/glno_shapes_eval/errors.png",
+      "destination": "figures/errors/shapes/errors.png",
+      "sha256": "7366cf910ccb5e71b48a38a5fc61bbebee8c3def0e5e6930fe438b62ac70bdd9"
+    },
+    {
+      "source": "artifacts/glno_shapes_eval/summary.json",
+      "destination": "metrics/shapes/summary.json",
+      "sha256": "9196ce3b5078e4aeaaceae8382f5774e3a7badcf347b0fef25264368ed04b704"
+    },
+    {
+      "source": "artifacts/glno_meshes_eval/compare_bunny_test1.png",
+      "destination": "figures/comparisons/meshes/test/compare_bunny_test1.png",
+      "sha256": "0263ec4f244c1f63f72d18f9ab5dd18cca96fb2c8a0b0291f5114bc3dd37607e"
+    },
+    {
+      "source": "artifacts/glno_meshes_eval/compare_bunny_test11.png",
+      "destination": "figures/comparisons/meshes/test/compare_bunny_test11.png",
+      "sha256": "d33d606b716becde46533b2c9429934ab5bae69e6ef9740553eb9de7329a2490"
+    },
+    {
+      "source": "artifacts/glno_meshes_eval/compare_spot_test12.png",
+      "destination": "figures/comparisons/meshes/test/compare_spot_test12.png",
+      "sha256": "1d03b61269109169d874a3d52673bade87a1ec98f0dd826f9c870cba576af1f1"
+    },
+    {
+      "source": "artifacts/glno_meshes_eval/compare_spot_test13.png",
+      "destination": "figures/comparisons/meshes/test/compare_spot_test13.png",
+      "sha256": "1b470593de3d4d6e8fe32157baae3215a9ed65f061fad793564a59a4935028e7"
+    },
+    {
+      "source": "artifacts/glno_meshes_eval/errors.png",
+      "destination": "figures/errors/meshes/errors.png",
+      "sha256": "6fcb86c556abd9663931c7ee52dd9002cfe9395cdcf07a1cda31ee887be7a692"
+    },
+    {
+      "source": "artifacts/glno_meshes_eval/summary.json",
+      "destination": "metrics/meshes/summary.json",
+      "sha256": "6eef587a979ded4caa1cb9fb68a0942f77b9d9f6a5ef4db971859db36555dbfd"
+    }
+  ]
+}

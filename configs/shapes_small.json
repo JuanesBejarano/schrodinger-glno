@@ -1,0 +1,61 @@
+{
+  "seed": 0,
+  "train_shapes": 4,
+  "val_shapes": 2,
+  "test_shapes": 4,
+  "packets_per_shape": 5,
+  "ood_packets_per_shape": 5,
+  "round_torus_every": 4,
+  "sphere_subdivisions": 5,
+  "sphere_relax": true,
+  "sphere_l_max": 4,
+  "sphere_slope": 2.0,
+  "sphere_tau_range": [
+    0.05,
+    0.15
+  ],
+  "torus_target_edge": 0.0305,
+  "torus_alpha_range": [
+    0.45,
+    0.55
+  ],
+  "torus_a_max": 0.04,
+  "torus_b_max": 0.06,
+  "torus_tau_range": [
+    0.0,
+    0.075
+  ],
+  "min_wavenumber": 16.33,
+  "min_curvature_radius": 0.18,
+  "max_shape_draws": 100,
+  "area": 12.566370614359172,
+  "final_time": 0.5,
+  "dt": 0.001,
+  "output_steps": 11,
+  "k_eig": 700,
+  "min_points_per_wavelength": 10.0,
+  "k0_range": [
+    1.0,
+    6.0
+  ],
+  "sigma_range": [
+    0.15,
+    0.2
+  ],
+  "ood_k0_range": [
+    6.0,
+    8.0
+  ],
+  "ood_sigma_range": [
+    0.18,
+    0.2
+  ],
+  "cutoff_inner": 7.0,
+  "cutoff_outer": 9.0,
+  "min_tube_sigmas": 1.75,
+  "leak_radius": 4.0,
+  "max_leak": 0.005,
+  "min_spectral_fraction": 0.99999,
+  "min_ood_spectral_fraction": 0.99994,
+  "max_packet_draws": 200
+}

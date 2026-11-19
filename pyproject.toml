@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "schrodinger-glno"
+version = "0.1.0"
+description = "GLNO for the Schrodinger equation on surfaces"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0", "scipy>=1.11", "torch>=2.5,<2.15", "einops>=0.7", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+notebook = ["jupyter>=1"]
+meshes = ["pymeshlab>=2023.12"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+markers = ["slow: takes more than about 5 s"]

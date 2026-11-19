@@ -1,0 +1,38 @@
+{
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "dataset": "shapes_small",
+ "variant": "periodic",
+ "store_gib": 0.4133370518684387,
+ "store_seconds": 9.039350342999995,
+ "cu_per_hour": null,
+ "projection": {
+  "dataset": "shapes",
+  "hours": {
+   "50": 0.23584237331699143,
+   "300": 1.4150542399019486
+  }
+ },
+ "device": "cuda",
+ "batch_size": 4,
+ "families": {
+  "sphere": {
+   "train_ms_per_sample": 16.845603941175447,
+   "train_packets": 10,
+   "val_packets": 5,
+   "eval_ms_per_sample": 7.895256800003381,
+   "reserved_gib": 7.001953125
+  },
+  "torus": {
+   "train_ms_per_sample": 23.191323705882596,
+   "train_packets": 10,
+   "val_packets": 5,
+   "eval_ms_per_sample": 11.422339599999987,
+   "reserved_gib": 9.248046875
+  }
+ },
+ "epoch_seconds": 0.49695725847059724,
+ "hours": {
+  "50": 0.0069021841454249624,
+  "300": 0.04141310487254977
+ }
+}
